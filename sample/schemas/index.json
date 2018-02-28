@@ -1,0 +1,20 @@
+{
+    "id": "index",
+    "type": "page",
+    "block": "blocks/page.block",
+    "dependencies": ["header"],
+    "plugins": ["express"],
+    "actions": [
+        {"start": {"plugin": "express", "func": "render", "params": ["get", "/", "index"]}}
+    ],
+    "data": {
+        "title": "Hello World",
+        "output": "index.html",
+        "main": [
+            {
+                "index": 2,
+                "block": "helloworld"
+            }
+        ]
+    }
+}

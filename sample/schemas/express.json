@@ -1,0 +1,8 @@
+{
+    "id": "express",
+    "type": "plugin",
+    "script": "express",
+    "args": {
+        "port": 5655
+    }
+}

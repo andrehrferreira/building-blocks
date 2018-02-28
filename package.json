@@ -1,0 +1,19 @@
+{
+    "name": "building-blocks",
+    "version": "0.0.1",
+    "author": "Andre Ferreira <andrehrf@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "async": "^2.6.0",
+        "browser-sync": "^2.23.6",
+        "cheerio": "^1.0.0-rc.2",
+        "colors": "^1.1.2",
+        "ejs": "^2.5.7",
+        "glob-fs": "^0.1.7",
+        "js-beautify": "^1.7.5",
+        "lodash": "^4.6.1",
+        "moment-timezone": "^0.5.13",
+        "nodemon": "^1.15.1",
+        "organized": "^1.0.2"
+    }
+}

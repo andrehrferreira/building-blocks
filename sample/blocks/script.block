@@ -1,0 +1,3 @@
+<% if(typeof src != 'undefined'){ %>
+    <script type="text/javascript" src="<%= src %>"></script>
+<% } %>

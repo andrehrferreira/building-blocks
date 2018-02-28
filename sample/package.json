@@ -1,0 +1,13 @@
+{
+    "name": "building-blocks-samples",
+    "version": "0.0.1",
+    "author": "Andre Ferreira <andrehrf@gmail.com>",
+    "scripts": {
+        "start": "node runtime.js"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "htmlparser2": "^3.9.2",
+        "mongodb": "^3.0.3"
+    }
+}

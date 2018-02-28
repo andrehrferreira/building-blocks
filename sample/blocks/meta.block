@@ -1,0 +1,3 @@
+<meta <% if(typeof name != 'undefined'){ %>name="<%= name %>" <% } %>
+      <% if(typeof content != 'undefined'){ %>content="<%= content %>"<% } %>
+      <% if(typeof charset != 'undefined'){ %>charset="<%= charset %>"<% } %> />
