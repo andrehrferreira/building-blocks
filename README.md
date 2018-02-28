@@ -163,8 +163,8 @@ Basically the style can be individually included in each block to facilitate the
 
 ```html
 <style type="text/css">
-	.blackBackground{ background-color: #000; }
-	.whiteColor{ color: #FFF; }
+    .blackBackground{ background-color: #000; }
+    .whiteColor{ color: #FFF; }
 </style>
 <ul class="blackBackground">
 <% users.forEach(function(user){ %>
@@ -216,7 +216,7 @@ module.exports = function(settings){
         id: "express",
         __init: function(callback){
         }
-	};
+    };
 };
 ```
 
@@ -359,7 +359,7 @@ module.exports = (_this, bind, plugins, express) => {
 ```
 
 sample/build/app/index.ejs
-```js
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
